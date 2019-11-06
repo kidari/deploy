@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/jsch-0.1.44.jar"/>
+	<classpathentry kind="lib" path="F:/SAVEFILE/ssh/expect4j-1.0.jar"/>
+	<classpathentry kind="lib" path="F:/SAVEFILE/ssh/jakarta-oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/commons-codec-1.2.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/commons-net-1.2.2.jar"/>
+	<classpathentry kind="lib" path="F:/feiq/2017年1月22日/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/feiq/2017年1月22日/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/feiq/2017年1月22日/poi-3.7 .jar"/>
+	<classpathentry kind="lib" path="F:/feiq/2017年1月22日/poi-examples-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="F:/feiq/2017年1月22日/poi-excelant-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="F:/feiq/2017年1月22日/poi-ooxml-3.5-beta6-20090622.jar"/>
+	<classpathentry kind="lib" path="F:/feiq/2017年1月22日/poi-ooxml-schemas-3.7.jar"/>
+	<classpathentry kind="lib" path="F:/feiq/2017年1月22日/poi-scratchpad-3.7.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/ChartDirector.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/cos.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/db2jcc_license_cu.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/db2jcc.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/iText.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/iTextAsian.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/iTextXML.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/jakarta-oro-2.0.8.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/jconn3.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/JREngine.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/JRESServlets.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/jxlsrc.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/plugin.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/rmb.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/sac.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/servlet.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/upload.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/weblogic.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/xalan.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/xmlParserAPIs.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/xmlparserv2.jar"/>
+	<classpathentry kind="lib" path="/ZW/WebRoot/WEB-INF/lib/xsu12.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

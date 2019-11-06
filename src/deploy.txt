@@ -1,0 +1,60 @@
+#SQL形成 split.java
+SQLINPUT=D:\\SAVEFILE\\new#date#.txt
+SQLOUTPUT=D:\\SAVEFILE\\newSC#date#.txt
+SC=" #sql# " +
+
+#备份 升级 回档脚本BUR.java(传入路径末尾无/或\\)
+#输入文本地址
+BURINPUT=D:\\SAVEFILE\\app#date#.txt
+#输出文件夹地址
+BUROUTPUT=D:\\SAVEFILE\\APP#date#
+
+#交易传输接口
+kondor=kondor
+kondordir=kondor_
+kondorweblogic=true
+kondorinput=D:\\workspaces\\KONDOR_V1.6.1\\bin
+kondorinputBL=D:\\workspaces\\KONDOR_V1.6.0\\bin
+kondororiginal=D:\SVN180\PFX\OMOR-IMS\DTIS\SRC\branches\DTIS_V1.6.1
+kondoroutput=/cadomain/KONDOR
+
+#cnap2.jar
+report=report
+reportweblogic=false
+reportinput=D:\\workspaces\\report\\bin
+
+#账务 中台报表
+#本地项目名=服务器项目名
+ZW=domain_new_pboc
+#生成tar文件文件名
+ZWdir=new_pboc_
+#项目是否为web项目
+domain_new_pbocweblogic=true
+#本地项目路径
+domain_new_pbocinput=D:\\workspaces\\CAS_V2.0.0\\WebRoot
+domain_new_pbocinputBL=D:\\workspaces\\ZW\\WebRoot
+domain_new_pbocoriginal=D:\SVN180\PFX\PBC-CAS\CAS\SRC\branches\CAS_V1.6.1
+#服务器项目路径
+domain_new_pbocoutput=/cadomain/domain_new_pboc/applications/DefaultWebApp
+
+#支付销账
+#本地项目名=服务器项目名
+cnap2=domain_cnap2
+cnap2dir=cnap2_
+#项目是否为web项目(当前部署项目为false)
+domain_cnap2weblogic=true
+#本地项目路径
+domain_cnap2input=C:\\Oracle\\Middleware\\user_projects\\domains\\cnap2_domain\\autodeploy\\cnap2
+#服务器项目路径
+domain_cnap2output=/cadomain/domain_cnap2/applications/DefaultWebApp
+#项目名称（ZW kondor cnap2 report）
+project=zw
+#版本号
+version=V2.8.0
+#自动脚本改路径
+changeline=true
+
+appbackup.sh=cp #situation# /home/bea/bak/#project#/`date +%C%y%m%d`_#version#/#filename#
+appupdate.sh=cp /home/bea/update/#project#/`date +%C%y%m%d`_#version#/#version#/#filename# #situation#
+apprestore.sh=cp /home/bea/bak/#project#/${date_backup}_#version#/#filename# #situation#
+rm=rm #situation#
